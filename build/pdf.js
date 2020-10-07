@@ -124,7 +124,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 var pdfjsVersion = '2.2.228';
-var pdfjsBuild = 'd7afb74a';
+var pdfjsBuild = 'd7afb74a6';
 
 var pdfjsSharedUtil = __w_pdfjs_require__(1);
 
@@ -10528,7 +10528,7 @@ function () {
           _ref3$canvasFactory = _ref3.canvasFactory,
           canvasFactory = _ref3$canvasFactory === void 0 ? null : _ref3$canvasFactory,
           _ref3$background = _ref3.background,
-          background = _ref3$background === void 0 ? null : _ref3$background;
+          background = _ref3$background === void 0 ? 'transparent' : _ref3$background;
       var stats = this._stats;
       stats.time('Overall');
       this.pendingCleanup = false;
@@ -12220,7 +12220,7 @@ var InternalRenderTask = function InternalRenderTaskClosure() {
 
 var version = '2.2.228';
 exports.version = version;
-var build = 'd7afb74a';
+var build = 'd7afb74a6';
 exports.build = build;
 
 /***/ }),
