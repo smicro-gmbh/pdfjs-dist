@@ -123,8 +123,8 @@ return /******/ (function(modules) { // webpackBootstrap
 "use strict";
 
 
-var pdfjsVersion = '2.2.228';
-var pdfjsBuild = 'd7afb74a6';
+var pdfjsVersion = '2.2.230';
+var pdfjsBuild = '6a9f567f7';
 
 var pdfjsSharedUtil = __w_pdfjs_require__(1);
 
@@ -10058,7 +10058,7 @@ function _fetchDocument(worker, source, pdfDataRangeTransport, docId) {
 
   return worker.messageHandler.sendWithPromise('GetDocRequest', {
     docId: docId,
-    apiVersion: '2.2.228',
+    apiVersion: '2.2.230',
     source: {
       data: source.data,
       url: source.url,
@@ -10528,7 +10528,7 @@ function () {
           _ref3$canvasFactory = _ref3.canvasFactory,
           canvasFactory = _ref3$canvasFactory === void 0 ? null : _ref3$canvasFactory,
           _ref3$background = _ref3.background,
-          background = _ref3$background === void 0 ? 'transparent' : _ref3$background;
+          background = _ref3$background === void 0 ? window.PDFJS_BGCOLOR || 'transparent' : _ref3$background;
       var stats = this._stats;
       stats.time('Overall');
       this.pendingCleanup = false;
@@ -12218,9 +12218,9 @@ var InternalRenderTask = function InternalRenderTaskClosure() {
   return InternalRenderTask;
 }();
 
-var version = '2.2.228';
+var version = '2.2.230';
 exports.version = version;
-var build = 'd7afb74a6';
+var build = '6a9f567f7';
 exports.build = build;
 
 /***/ }),
